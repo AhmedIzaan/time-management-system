@@ -30,7 +30,7 @@ string stopwatchStr = "00:00:00";
 string timerStr = "00:00";
 string alarmStatus = "No Alarm Set";
 
-// 3. THREAD CONTROL (using bool with mutex instead of atomic)
+// 3. THREAD CONTROL 
 bool isRunning = true;
 bool stopwatchRunning = false;
 bool stopwatchPaused = false;
